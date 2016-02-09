@@ -1,0 +1,45 @@
+{
+  "name": "kafka-lib",
+  "version": "0.0.0",
+  "description": "AGC Kafka util",
+  "homepage": "",
+  "author": {
+    "name": "Jack Gardner",
+    "email": "jack@advanceglobalcap.com",
+    "url": ""
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    ""
+  ],
+  "devDependencies": {
+    "eslint-config-xo-space": "^0.7.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "/kafka-lib",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "private": true,
+  "dependencies": {
+    "debug": "^2.2.0",
+    "nice-simple-logger": "0.0.4",
+    "no-kafka": "^1.2.2"
+  }
+}
