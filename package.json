@@ -33,13 +33,12 @@
   },
   "repository": "/kafka-lib",
   "scripts": {
-    "prepublish": "gulp prepublish",
     "test": "gulp"
   },
   "private": true,
   "dependencies": {
     "debug": "^2.2.0",
     "nice-simple-logger": "0.0.4",
-    "no-kafka": "^1.2.2"
+    "no-kafka": "https://github.com/oleksiyk/kafka"
   }
 }
