@@ -39,6 +39,6 @@
   "dependencies": {
     "debug": "^2.2.0",
     "nice-simple-logger": "0.0.4",
-    "no-kafka": "https://github.com/oleksiyk/kafka"
+    "no-kafka": "^2.5.5"
   }
 }
